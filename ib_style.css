@@ -1,0 +1,28 @@
+.instantButtonsContainer > select, .instantButtonsContainer label:first-of-type, .reset_variations {
+  display: none;
+}
+.instantButtonsContainer > label {
+    display: inline-block;
+}
+.instantButtonsContainer > label > span {
+    text-align:center;
+    display:block;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    line-height: 1;
+    padding: 9px 11px;
+    margin: 3px 4px 1px 3px;
+    font-size: 0.8125em;
+    font-style: normal;
+    background-color: #fff;
+    border: 1px solid #fff;
+}
+.instantButtonsContainer > label > input {
+    position:absolute;
+    top:-20px;
+}
+.instantButtonsContainer > label > input:checked + span {
+    border: 1px solid #000;
+}
